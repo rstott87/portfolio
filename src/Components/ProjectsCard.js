@@ -1,7 +1,5 @@
-// import binomialsImage from './binomials_project.png'
+
 import React from 'react'
-
-
 
 function ProjectsCard (props) {
     return (
