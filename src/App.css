@@ -72,7 +72,7 @@ table {
 
 .linkWrapper>a {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   text-align: center;
   padding: 10%;
   color: rgb(0, 0, 0, .88);
@@ -144,9 +144,37 @@ img {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .mainGrid {
     grid-template-columns: 1fr;
   }
 
+  .headerName{
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    text-align: left;
+    padding: 10px;
+    color: rgb(0, 0, 0, .88);
+  }
+  .headerTitle {
+    font-size: 0.6rem;
+    color: rgb(0, 0, 0, .60);
+  }
+  .linkWrapper>a {
+    font-family: 'Poppins', sans-serif;
+    font-size: .7rem;
+    text-align: center;
+    color: rgb(0, 0, 0, .88);
+    display: inline-block;
+    padding: 15px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(245, 241, 241);
+    box-shadow: 3px 2px 2px rgb(105, 98, 98);
+    padding: 3px;
+    position: sticky;
+    top: 0px;
+  }
 }
