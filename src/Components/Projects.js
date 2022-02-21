@@ -18,11 +18,7 @@ function Projects (props) {
             description="Simple visual demonstration that shows the gains and time needed to recoup a loss" 
             link="https://losses-and-gains.vercel.app/" 
             img={lossGainsImage}
-            />
-          <div className="gridItem">Grid Item 4</div>
-          <div className="gridItem">Grid Item 5</div>
-          <div className="gridItem">Grid Item 6</div>
-        
+            /> 
      </div>       
     )
 }
