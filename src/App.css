@@ -137,9 +137,10 @@ img {
 
 .aboutMe {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-align: center;
-  padding: 10%;
+  line-height: 1.4;
+  padding: 8% 15%;
   color: rgb(0, 0, 0, .88);
 }
 
