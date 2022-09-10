@@ -11,7 +11,7 @@ function About (props) {
              <p> <br></br>
                 In the Winter of 2022, I completed a full-time six month web development program
                 at Bloom Institute of Technology which was one of the most challenging but also most rewarding 
-                experiences in my software development journey. 
+                experiences in my software development journey.  
              </p>
         </div>
         
